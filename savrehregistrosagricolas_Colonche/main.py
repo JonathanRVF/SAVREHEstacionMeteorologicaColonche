@@ -54,15 +54,15 @@ server = Flask(__name__)
 # Crear la aplicación Dash
 app = dash.Dash(__name__, server=server, suppress_callback_exceptions=True)
 
-app.title = "NOVA Pastocalle"
+app.title = "SAVREH Colonche"
 # Diseño de la aplicación Dash
 app.layout = html.Div([
     html.Div(
         children=[
             html.Img(src='/assets/Nova.png', style={'height': '50px', 'margin-right': '10px'}),
-            html.Span('NOVA-PASTOCALLE Estación Meteorológica', style={'fontSize': '24px', 'fontWeight': 'bold'})
+            html.Span('SAVREH-Colonche Estación Meteorológica', style={'fontSize': '24px', 'fontWeight': 'bold'})
         ],
-        style={'backgroundColor': 'green', 'color': 'white', 'display': 'flex', 'alignItems': 'center', 'padding': '10px', 'justifyContent': 'center'}
+        style={'backgroundColor': 'blue', 'color': 'white', 'display': 'flex', 'alignItems': 'center', 'padding': '10px', 'justifyContent': 'center'}
     ),
     dcc.Tabs([
         dcc.Tab(
