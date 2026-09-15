@@ -60,7 +60,7 @@ app.layout = html.Div([
     html.Div(
         children=[
             html.Img(src='/assets/Nova.png', style={'height': '50px', 'margin-right': '10px'}),
-            html.Span('NOVA-PASTOCALLE Estación Meteorológica', style={'fontSize': '24px', 'fontWeight': 'bold'})
+            html.Span('NOVA-SAVREH-COLONCHE Estación Meteorológica', style={'fontSize': '24px', 'fontWeight': 'bold'})
         ],
         style={'backgroundColor': 'green', 'color': 'white', 'display': 'flex', 'alignItems': 'center', 'padding': '10px', 'justifyContent': 'center'}
     ),
