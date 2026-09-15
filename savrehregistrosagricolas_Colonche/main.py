@@ -25,7 +25,7 @@ def get_data(start_date=None, end_date=None):
 
     # Consultar los datos en el rango de fechas
     query = """
-        SELECT * FROM emeteorologicalrsr
+        SELECT * FROM emeteorologicacolonche
         WHERE (%s IS NULL OR fecha >= %s) AND (%s IS NULL OR fecha <= %s)
     """
     cursor.execute(query, (start_date, start_date, end_date, end_date))
